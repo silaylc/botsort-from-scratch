@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Ortam
+.env
+.venv/
+venv/
+
+# Videolar ve model ağırlıkları (assets/ altındaki demo hariç)
+*.mp4
+*.avi
+*.mov
+!assets/*.mp4
+*.pt
+*.pth
+*.onnx
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
